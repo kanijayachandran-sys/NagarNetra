@@ -1,0 +1,6 @@
+{
+  "name": "NagarNetra",
+  "description": "NagarNetra – A Hyperlocal AI-powered civic issue reporting and resolution platform enabling citizens, authorities, and volunteers to collaboratively track and solve hyperlocal problems.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

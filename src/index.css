@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom styles for Leaflet map markers and tooltips to match Editorial Dark */
+.custom-leaflet-tooltip {
+  background: #121212 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.75rem !important;
+  padding: 0.5rem 0.75rem !important;
+  font-weight: 500 !important;
+  font-size: 0.75rem !important;
+  color: #f3f4f6 !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Bento Grid item hover effects with high elegance */
+.bento-card {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Minimalist Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
