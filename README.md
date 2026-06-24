@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/434d6f07-1e7f-4fda-b173-c04453400f2a
+Deployment link: https://nagarnetra-72078282105.asia-southeast1.run.app/
 
 ## Run Locally
 
